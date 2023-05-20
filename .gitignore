@@ -1,0 +1,5 @@
+#データベース
+*.sqlite3
+
+#mediaフォルダ
+media/
