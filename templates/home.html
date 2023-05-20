@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'home.css' %}">
     <meta charset="utf-8">
     <title>Home</title>
   </head>
@@ -13,6 +15,7 @@
       {{ form.as_p }}
       <input type="submit" value="保存">
     </form>
+    <h1>TEST</h1>
     {% if user %}      
       <p>name: {{ user.name }}</p>
       <p>age: {{ user.age }}</p> 
